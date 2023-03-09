@@ -27,7 +27,6 @@ if (count === 1) {
 
 //tempConvert.js
 const fahrenheit = 98;
-
 const indicator = "c";
 let result;
 if (indicator === "c") {
@@ -87,7 +86,6 @@ function areArraysEqual(arr1, arr2) {
   }
   return true;
 }
-
 console.log(areArraysEqual(arr1, arr2)); // true
 console.log(areArraysEqual(arr1, arr3)); // false
 console.log(areArraysEqual(arr1, arr4)); // false
